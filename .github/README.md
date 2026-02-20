@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/crc64-nvme`](https://www.npmjs.com/package/@aws-sdk/crc64-nvme/v/3.956.0).
+[`@aws-sdk/crc64-nvme`](https://www.npmjs.com/package/@aws-sdk/crc64-nvme/v/3.957.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.956.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.957.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-zg7Nhquek7EXhJP1X2Cx5kd8QiqQh2cEInjHvb56lz0lOm3aJvx/p6+QWm+xjUqO
+sha384-50oY2FxozJodupWC/ZMSopF9Oi4F+bK0v2Dy1JfBPusHisDqeUjzt8AUlfAvXBW6
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/crc64-nvme": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.956.0/index.min.mjs"
+            "@aws-sdk/crc64-nvme": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.957.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.956.0/index.min.mjs": "sha384-zg7Nhquek7EXhJP1X2Cx5kd8QiqQh2cEInjHvb56lz0lOm3aJvx/p6+QWm+xjUqO"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.957.0/index.min.mjs": "sha384-50oY2FxozJodupWC/ZMSopF9Oi4F+bK0v2Dy1JfBPusHisDqeUjzt8AUlfAvXBW6"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/crc64-nvme": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.956.0/index.min.mjs"
+                        "@aws-sdk/crc64-nvme": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.957.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.956.0/index.min.mjs": "sha384-zg7Nhquek7EXhJP1X2Cx5kd8QiqQh2cEInjHvb56lz0lOm3aJvx/p6+QWm+xjUqO"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.957.0/index.min.mjs": "sha384-50oY2FxozJodupWC/ZMSopF9Oi4F+bK0v2Dy1JfBPusHisDqeUjzt8AUlfAvXBW6"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.956.0`)
+* Always pin to a specific version (`@3.957.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/crc64-nvme/blob/refs/tags/3.956.0/LICENSE
+https://github.com/cloud-sdk-builds/crc64-nvme/blob/refs/tags/3.957.0/LICENSE
 ```
 
 ---
