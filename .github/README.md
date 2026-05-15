@@ -1,7 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/crc64-nvme`](https://www.npmjs.com/package/@aws-sdk/crc64-nvme/v/3.972.7).
+[`@aws-sdk/crc64-nvme`](https://www.npmjs.com/package/@aws-sdk/crc64-nvme/v/3.972.8).
+
+Refer to the links below for detailed documentation:
+- All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
+- @aws-sdk/crc64-nvme - [https://cloud-sdk-builds.github.io/?sdk=crc64-nvme](https://cloud-sdk-builds.github.io/?sdk=crc64-nvme)
+- @aws-sdk/crc64-nvme v3.972.8 - [https://cloud-sdk-builds.github.io/?sdk=crc64-nvme&version=3.972.8](https://cloud-sdk-builds.github.io/?sdk=crc64-nvme&version=3.972.8)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,7 +33,7 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.972.7/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.972.8/index.min.mjs
 ```
 
 SRI SHA Hash
@@ -61,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/crc64-nvme": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.972.7/index.min.mjs"
+            "@aws-sdk/crc64-nvme": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.972.8/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.972.7/index.min.mjs": "sha384-50oY2FxozJodupWC/ZMSopF9Oi4F+bK0v2Dy1JfBPusHisDqeUjzt8AUlfAvXBW6"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.972.8/index.min.mjs": "sha384-50oY2FxozJodupWC/ZMSopF9Oi4F+bK0v2Dy1JfBPusHisDqeUjzt8AUlfAvXBW6"
         }
       }
 </script>
@@ -81,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/crc64-nvme": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.972.7/index.min.mjs"
+                        "@aws-sdk/crc64-nvme": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.972.8/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.972.7/index.min.mjs": "sha384-50oY2FxozJodupWC/ZMSopF9Oi4F+bK0v2Dy1JfBPusHisDqeUjzt8AUlfAvXBW6"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/crc64-nvme@3.972.8/index.min.mjs": "sha384-50oY2FxozJodupWC/ZMSopF9Oi4F+bK0v2Dy1JfBPusHisDqeUjzt8AUlfAvXBW6"
                     }
                   }
             </script>
@@ -151,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.972.7`)
+* Always pin to a specific version (`@3.972.8`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,9 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/crc64-nvme/blob/refs/tags/3.972.7/LICENSE
+https://github.com/cloud-sdk-builds/crc64-nvme/blob/refs/tags/3.972.8/LICENSE
 ```
 
 ---
-
-If you want, I can next give you a **legally safest naming pattern** for all repositories (very important for trademark safety, especially avoiding “aws-sdk” in repo names while still keeping discoverability).
